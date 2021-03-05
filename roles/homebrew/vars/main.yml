@@ -1,0 +1,24 @@
+standard_list:
+  - node
+  - yarn
+  - autojump
+  - azure-cli
+  - skaffold
+  - terraform
+  - asciinema
+  - trash
+  - tmux
+  - navi
+  - thefuck
+
+cask_list: 
+  - iterm2
+  - visual-studio-code
+  - google-chrome
+  - intellij-idea
+  - oracle-jdk
+  - docker
+  - parallels
+  - dotnet-sdk
+  - slack
+  - zoomus

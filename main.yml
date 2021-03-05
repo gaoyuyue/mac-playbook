@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  roles:
+    # - role: fonts
+    - role: homebrew
+    - role: oh-my-zsh
+    - role: npm
+    - role: pip

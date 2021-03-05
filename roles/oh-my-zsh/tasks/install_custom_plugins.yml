@@ -1,0 +1,6 @@
+---
+- name: 'install {{ item.name }}'
+  git: 
+    repo: '{{ item.repo }}'
+    dest: '{{ home }}/.oh-my-zsh/custom/plugins/{{ item.name }}'
+  with_items: '{{ custom_plugins }}'

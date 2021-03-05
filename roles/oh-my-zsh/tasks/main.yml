@@ -1,0 +1,7 @@
+---
+- import_tasks: clone_repository.yml
+- import_tasks: install_custom_themes.yml
+- import_tasks: install_custom_plugins.yml
+- import_tasks: copy_p10k_zsh.yml
+- import_tasks: copy_zshrc_file.yml
+# - import_tasks: change_default_shell.yml

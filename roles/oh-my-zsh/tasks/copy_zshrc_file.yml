@@ -1,0 +1,8 @@
+---
+- name: copy .zshrc file
+  template:
+    src: zshrc.j2
+    dest: '{{ home }}/.zshrc'
+    # backup: yes
+  notify: 
+    - source zshrc file

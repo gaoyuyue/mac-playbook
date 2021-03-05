@@ -1,0 +1,10 @@
+---
+- name: install homebrew-cask-fonts
+  homebrew_tap:
+    name: homebrew/cask-fonts
+    state: present
+
+- name: install fonts
+  homebrew_cask:
+    name: '{{ fonts }}'
+    state: present
